@@ -28,7 +28,7 @@ export const MESSAGES = {
     lastNameRequired: 'Error: Last Name is required',
     postalCodeRequired: 'Error: Postal Code is required',
     orderCompleteTitle: 'Thank you for your order!',
-    oderCompleteText: 'ypur order has been dispatched, and will arrive just as fast as the pony can get there!',
+    orderCompleteText: 'ypur order has been dispatched, and will arrive just as fast as the pony can get there!',
 } as const;
 
 export const PRODUCTS: readonly ProductData[] = [
