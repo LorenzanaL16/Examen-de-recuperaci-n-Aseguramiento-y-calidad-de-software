@@ -20,15 +20,13 @@ export const USERS = {
 
 export const MESSAGES = {
     LockedOutError: 'Epic sadface: Sorry, this user has been locked out.',
-    usernameRequired: 'Epic sadface: UserName us required',
-    passwordRequired: 'Epic sadface: Password is required',
-    invalidCredentials: 'Epic sadface: Username and password do not mach any user in this service',
-    noSessionError: "Epic sadface: You can only access '/inventory.html' when you are logged in.",
+    usernameRequired: 'Epic sadface: Username is required',    passwordRequired: 'Epic sadface: Password is required',
+    invalidCredentials: 'Epic sadface: Username and password do not match any user in this service',    noSessionError: "Epic sadface: You can only access '/inventory.html' when you are logged in.",
     firstNameRequired: 'Error: First Name is required',
     lastNameRequired: 'Error: Last Name is required',
     postalCodeRequired: 'Error: Postal Code is required',
     orderCompleteTitle: 'Thank you for your order!',
-    orderCompleteText: 'ypur order has been dispatched, and will arrive just as fast as the pony can get there!',
+    orderCompleteText: 'Your order has been dispatched, and will arrive just as fast as the pony can get there!',
 } as const;
 
 export const PRODUCTS: readonly ProductData[] = [
@@ -58,7 +56,7 @@ export const PRODUCTS: readonly ProductData[] = [
         suffix: 'sauce-labs-onesie',
     },
     {
-        name: 'Test.allTheThings() T-Shirt (Read)',
+        name: 'Test.allTheThings() T-Shirt (Red)',
         price: 15.99,
         suffix: 'test.allthethings()-t-shirt-(red)',
     },
