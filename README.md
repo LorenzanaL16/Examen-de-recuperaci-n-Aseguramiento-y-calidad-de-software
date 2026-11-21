@@ -87,9 +87,9 @@ Las pruebas automatizadas relacionadas están en [`tests/defectos.spec.ts`](test
 
 ## Evidencias
 
-- [Reporte general de Playwright](capturas/reporte-general.png)
-- [Detalle de una prueba de defecto](capturas/detalle-defecto.png)
-- [Ejecución exitosa de GitHub Actions](capturas/github-actions.png)
+- [Reporte general](capturas/reporte-general.png.jpeg)
+- [Detalle DEF-001](capturas/detalle-defecto.png.jpeg)
+- [GitHub Actions](capturas/github-actions.png%202.png)
 
 ## Integración continua
 
